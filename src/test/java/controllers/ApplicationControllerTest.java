@@ -49,5 +49,4 @@ public class ApplicationControllerTest extends NinjaTest {
         // from the index screen:
         assertTrue(result.contains("second"));
     }
-
 }
