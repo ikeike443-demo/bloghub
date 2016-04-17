@@ -49,8 +49,6 @@ public class ApplicationControllerTest extends NinjaTest {
         // from the index screen:
         assertTrue(result.contains("second"));
         assertTrue(result.contains("Home"));
-        assertTrue(result.contains("ログイン"));
-
+        assertTrue(result.contains("Login"));
     }
-
 }
